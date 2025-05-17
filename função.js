@@ -98,7 +98,7 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `Você sabe muito sobre a gente: ${score} de ${questions.length}`;
+    questionElement.innerHTML = `Você Conhece a Gente?: ${score} de ${questions.length}`;
     nextButton.innerHTML = "Jogar novamente";
     nextButton.style.display = "block";
 }
