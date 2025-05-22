@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "Eu e o Henrique Falamos?",
+        question: "O Henrique Fala?",
         answers: [
-            { id: 1, text: "UOUOUOUUOOUOUO", correct: true },
-            { id: 2, text: "Very nice", correct: false },
-            { id: 3, text: "beleza", correct: false },
-            { id: 4, text: "a", correct: false },
+            { id: 1, text: "Beleza", correct: false},
+            { id: 2, text: "Maro Menos", correct: true },
+            { id: 3, text: "Agora Ai", correct: false },
+            { id: 4, text: "ª", correct: false },
         ],
     },
     {
@@ -24,6 +24,15 @@ const questions = [
             { id: 2, text: "Santos", correct: false },
             { id: 3, text: "Rocha", correct: false },
             { id: 4, text: "Candido", correct: true },
+        ],
+    },
+    {
+        question: "O Ruan Fala?",
+        answers: [
+            { id: 1, text: "Na Hora Foi Engraçado Mas Agora Não Foi Não", correct: true },
+            { id: 2, text: "ª", correct: false},
+            { id: 3, text: "Okay", correct: false},
+            { id: 4, text: "Att Desculpa", correct: false },
         ],
     },
     {
